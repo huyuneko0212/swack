@@ -51,36 +51,4 @@ public class UsersDAO {
 		return user;
 	}
 
-	public boolean exists(String mailAddress) throws SwackException {
-		// TODO SQL
-		String sql = "********";
-
-		// TODO Access DB
-
-		return false;
-
-	}
-
-	public String selectMaxUserId() throws SwackException {
-		// TODO SQL
-		String sql = "********";
-
-		String maxUserId = null;
-
-		// TODO Access DB
-
-		return maxUserId;
-
-	}
-
-	public boolean insert(User user) throws SwackException {
-		// TODO SQL
-		String sql = "********";
-
-		// TODO Access DB
-
-		return true;
-
-	}
-
 }
